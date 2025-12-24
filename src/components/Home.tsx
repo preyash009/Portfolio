@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
 import { useInView } from "react-intersection-observer";
-import { FloatingShapes, CodePattern, ParticleBackground } from "./svg/BackgroundDecorations";
+import { FloatingShapes, ParticleBackground } from "./svg/BackgroundDecorations";
 import { CodeBrackets, GlowingOrb, FloatingIcon } from "./svg/AnimatedIcons";
+import { LeetCodeIcon } from "./svg/LeetCodeIcon";
 
 export default function Home() {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -72,6 +73,9 @@ export default function Home() {
             <a href="https://github.com/preyash009" className="text-gray-400 hover:text-purple-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
               <Github className="w-6 h-6" />
             </a>
+            {/* <a href="https://leetcode.com/u/parikhpreyash9897/" className="text-gray-400 hover:text-orange-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
+              <LeetCodeIcon className="w-6 h-6" />
+            </a> */}
             <a href="#contact" className="text-gray-400 hover:text-green-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300">
               <Mail className="w-6 h-6" />
             </a>

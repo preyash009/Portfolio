@@ -11,6 +11,7 @@ const projects = [
     tech: ["Laravel", "Vue.js", "MySQL", "REST API"],
     github: "",
     live: "https://www.playbook365.com/",
+    image: "/images/projects/playbook365.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -21,6 +22,7 @@ const projects = [
     tech: ["React.js", "Next.js", "TypeScript"],
     github: "",
     live: "https://payrup.com/",
+    image: "/images/projects/payrup.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -31,6 +33,7 @@ const projects = [
     tech: ["Laravel", "Vue.js", "MySQL", "REST API"],
     github: "",
     live: "https://www.armedforcesreunions.com/",
+    image: "/images/projects/afri.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -41,6 +44,7 @@ const projects = [
     tech: ["Laravel", "MySQL", "API"],
     github: "",
     live: "https://workdo.io/ticketgo-support-ticket-system/",
+    image: "/images/projects/ticketgo.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -51,6 +55,7 @@ const projects = [
     tech: ["Laravel", "MySQL", "API"],
     github: "",
     live: "https://workdo.io/taskly-project-management-system-saas/",
+    image: "/images/projects/taskly-saas.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -61,6 +66,7 @@ const projects = [
     tech: ["PHP", "MySQL", "REST API", "API"],
     github: "",
     live: "https://www.estateblock.com/",
+    image: "/images/projects/estateblock.webp",
     stars: 0,
     forks: 0,
     featured: false,
@@ -75,8 +81,20 @@ const ProjectCard = ({ project, index }: { project: (typeof projects)[0]; index:
       {project.featured && <div className="bg-gradient-to-r from-purple-500 to-blue-500 text-white text-xs font-bold px-3 py-1 absolute top-4 right-4 rounded-full z-10">Featured</div>}
 
       <div className="relative overflow-hidden">
-        <div className="w-full h-48 bg-gradient-to-br from-purple-500/20 via-blue-500/20 to-cyan-500/20 flex items-center justify-center relative">
-          <Code className="w-16 h-16 text-white/30" />
+        <div className="w-full h-48 relative overflow-hidden">
+          <img
+            src={project.image}
+            alt={`${project.title} screenshot`}
+            className="w-full h-full object-cover object-top"
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.style.display = "none";
+              target.nextElementSibling?.classList.remove("hidden");
+            }}
+          />
+          <div className="w-full h-full bg-gradient-to-br from-purple-500/20 via-blue-500/20 to-cyan-500/20 flex items-center justify-center absolute inset-0 hidden">
+            <Code className="w-16 h-16 text-white/30" />
+          </div>
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           {(project.github || project.live) && (
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
