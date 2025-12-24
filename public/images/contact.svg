@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="150" r="120" fill="url(#contactGradient)" opacity="0.1" />
+  
+  <!-- Laptop -->
+  <rect x="120" y="120" width="160" height="100" rx="8" fill="#1f2937" stroke="url(#contactGradient)" stroke-width="2" />
+  <rect x="130" y="130" width="140" height="80" rx="4" fill="#0f172a" />
+  
+  <!-- Screen content -->
+  <rect x="140" y="140" width="60" height="4" rx="2" fill="#8b5cf6" />
+  <rect x="140" y="150" width="80" height="4" rx="2" fill="#3b82f6" />
+  <rect x="140" y="160" width="40" height="4" rx="2" fill="#06b6d4" />
+  
+  <!-- Email icons floating -->
+  <g opacity="0.8">
+    <rect x="80" y="80" width="24" height="16" rx="2" fill="none" stroke="#8b5cf6" stroke-width="2" />
+    <path d="M80 80 L92 90 L104 80" stroke="#8b5cf6" stroke-width="2" fill="none" />
+  </g>
+  
+  <g opacity="0.6">
+    <rect x="300" y="100" width="20" height="14" rx="2" fill="none" stroke="#3b82f6" stroke-width="1.5" />
+    <path d="M300 100 L310 108 L320 100" stroke="#3b82f6" stroke-width="1.5" fill="none" />
+  </g>
+  
+  <!-- Phone icon -->
+  <g opacity="0.7">
+    <rect x="320" y="180" width="16" height="24" rx="3" fill="none" stroke="#06b6d4" stroke-width="2" />
+    <circle cx="328" cy="190" r="1" fill="#06b6d4" />
+  </g>
+  
+  <!-- Message bubbles -->
+  <circle cx="100" cy="200" r="20" fill="#8b5cf6" opacity="0.2" />
+  <circle cx="320" cy="60" r="15" fill="#3b82f6" opacity="0.2" />
+  
+  <!-- Connecting lines -->
+  <path d="M100 180 Q150 160 200 150" stroke="url(#contactGradient)" stroke-width="2" opacity="0.3" fill="none" />
+  <path d="M300 150 Q250 140 200 150" stroke="url(#contactGradient)" stroke-width="2" opacity="0.3" fill="none" />
+  
+  <defs>
+    <linearGradient id="contactGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+</svg>
