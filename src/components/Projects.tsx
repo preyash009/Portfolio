@@ -71,6 +71,17 @@ const projects = [
     forks: 0,
     featured: false,
   },
+  {
+    title: "ISX Tours",
+    description: "Canada's leading international student tour operator. ISX Canada | Student Tours from Toronto: New York, Niagara Falls, Quebec",
+    tech: ["PHP", "MySQL", "API"],
+    github: "",
+    live: "https://www.isx.ca/",
+    image: "/images/projects/isx.webp",
+    stars: 0,
+    forks: 0,
+    featured: false,
+  },
 ];
 
 const ProjectCard = ({ project, index }: { project: (typeof projects)[0]; index: number }) => {
