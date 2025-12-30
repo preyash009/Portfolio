@@ -7,10 +7,22 @@ const ptMono = PT_Mono({
 });
 
 export const metadata = {
-  title: "Senior Software Engineer | Portfolio",
-  description: "7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript",
+  title: "Preyash Parikh | Senior Software Engineer",
+  description: "Senior Software Engineer with 7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript",
   icons: {
     icon: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Preyash Parikh",
+    description: "Senior Software Engineer",
+    images: ["/favicon.svg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Preyash Parikh",
+    description: "Senior Software Engineer",
+    images: ["/favicon.svg"],
   },
 };
 
