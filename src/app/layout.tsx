@@ -5,7 +5,7 @@ const ptMono = PT_Mono({
   subsets: ["latin"],
   weight: ["400"],
 });
-
+ 
 export const metadata = {
   title: "Preyash Parikh | Senior Software Engineer",
   description: "Senior Software Engineer with 7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript",
