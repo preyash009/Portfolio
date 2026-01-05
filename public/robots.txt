@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://preyash-parikh.vercel.app/sitemap.xml
