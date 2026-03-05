@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center">
             <p className="text-gray-400 mb-4">Designed and Developed by Preyash Parikh</p>
-            <p className="text-gray-500 text-sm">Copyright © {currentYear} PreyashP.</p>
+            <p className="text-gray-500 text-sm">Copyright © {currentYear} PreyashParikh.</p>
           </div>
         </div>
       </footer>

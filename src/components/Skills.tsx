@@ -16,8 +16,8 @@ const skillCategories = [
       { name: "Vue.js", color: "text-green-400" },
       { name: "TypeScript", color: "text-blue-500" },
       { name: "JavaScript", color: "text-yellow-400" },
-      { name: "HTML5", color: "text-orange-500" },
-      { name: "CSS3", color: "text-blue-400" },
+      // { name: "HTML5", color: "text-orange-500" },
+      // { name: "CSS3", color: "text-blue-400" },
     ],
     color: "from-blue-500 to-cyan-500",
   },
@@ -34,7 +34,11 @@ const skillCategories = [
   {
     title: "Database & Storage",
     icon: Database,
-    skills: [{ name: "MySQL", color: "text-orange-400" }],
+    skills: [
+      { name: "MySQL", color: "text-orange-400" },
+      { name: "PostgreSQL", color: "text-blue-400" },
+      { name: "MongoDB", color: "text-green-400" },
+    ],
     color: "from-purple-500 to-pink-500",
   },
   {
@@ -44,8 +48,9 @@ const skillCategories = [
       { name: "Git", color: "text-orange-500" },
       { name: "Linux", color: "text-yellow-400" },
       { name: "Webpack", color: "text-blue-500" },
-      { name: "Vite", color: "text-purple-400" },
-      { name: "VS Code", color: "text-purple-400" },
+      // { name: "Vite", color: "text-purple-400" },
+      { name: "AI Platforms", color: "text-purple-400" },
+      { name: "Docker", color: "text-purple-400" },
     ],
     color: "from-orange-500 to-red-500",
   },
@@ -56,7 +61,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20 relative overflow-hidden pt-20" ref={ref}>
-      <BinaryCodeAnimation />
+      {/* <BinaryCodeAnimation /> */}
 
       {/* Floating decorative elements */}
       <div className="absolute top-20 right-10">

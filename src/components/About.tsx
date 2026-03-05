@@ -21,7 +21,7 @@ export default function About() {
           <motion.div initial={{ opacity: 0, x: -50 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.8, delay: 0.2 }} className="space-y-6">
             <div className="glass-morphism p-8 rounded-2xl">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I’m a <span className="text-gradient font-semibold">Sr. Software Engineer</span> who enjoys turning ideas into reliable, scalable products. I focus on clean architecture, problem-solving, and building systems that deliver smooth user experiences.
+                I’m a <span className="text-gradient font-semibold">Sr. Software Engineer/Full-Stack Developer</span> who enjoys turning ideas into reliable, scalable products. I focus on clean architecture, problem-solving, and building systems that deliver smooth user experiences.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 I work across the full stack, building robust backend systems with <span className="text-gradient font-semibold">PHP</span> and <span className="text-gradient font-semibold">Laravel</span>, and modern interfaces using <span className="text-gradient font-semibold">Vue.js, React.js, and Next.js</span>. I’m always learning new technologies and improving my craft to build better software.
