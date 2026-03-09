@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <section id="about" className="py-20 pt-20 relative bg-black/50" ref={ref}>
-      <CodePattern />
+      {/* <CodePattern /> */}
       <div className="container mx-auto px-6">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8 }} className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -24,7 +24,7 @@ export default function About() {
                 I’m a <span className="text-gradient font-semibold">Sr. Software Engineer/Full-Stack Developer</span> who enjoys turning ideas into reliable, scalable products. I focus on clean architecture, problem-solving, and building systems that deliver smooth user experiences.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I work across the full stack, building robust backend systems with <span className="text-gradient font-semibold">PHP</span> and <span className="text-gradient font-semibold">Laravel</span>, and modern interfaces using <span className="text-gradient font-semibold">Vue.js, React.js, and Next.js</span>. I’m always learning new technologies and improving my craft to build better software.
+                I work across the full stack, building robust backend systems with <span className="text-gradient font-semibold">PHP</span> and <span className="text-gradient font-semibold">Laravel</span>, and modern interfaces using <span className="text-gradient font-semibold">Vue.js, MERN Stack, and Next.js</span>. I’m always learning new technologies and improving my craft to build better software.
               </p>
             </div>
           </motion.div>

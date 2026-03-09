@@ -27,6 +27,7 @@ const skillCategories = [
     skills: [
       { name: "PHP", color: "text-purple-400" },
       { name: "Laravel", color: "text-red-500" },
+      { name: "Node.js", color: "text-red-500" },
       { name: "REST APIs", color: "text-blue-400" },
     ],
     color: "from-green-500 to-emerald-500",
@@ -49,7 +50,7 @@ const skillCategories = [
       { name: "Linux", color: "text-yellow-400" },
       { name: "Webpack", color: "text-blue-500" },
       // { name: "Vite", color: "text-purple-400" },
-      { name: "AI Platforms", color: "text-purple-400" },
+      { name: "AI Tools", color: "text-purple-400" },
       { name: "Docker", color: "text-purple-400" },
     ],
     color: "from-orange-500 to-red-500",
