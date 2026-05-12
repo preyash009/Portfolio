@@ -6,6 +6,17 @@ import { ExternalLink, Github, Code, Star, GitFork } from "lucide-react";
 
 const projects = [
   {
+    title: "Smart Utility Tools",
+    description: "SmartUtilityTool offers 130+ free browser-based tools for PDF, image, code, and text. No file uploads, no sign-ups. 100% private and secure processing.",
+    tech: ["Javascript", "Tailwind"],
+    github: "",
+    live: "https://www.smartutilitytool.com/",
+    image: "/images/projects/smartutilitytool.webp",
+    stars: 0,
+    forks: 0,
+    featured: false,
+  },
+  {
     title: "Playbook365",
     description: "Playbook365 is the top all-in-one tournament management & event housing software with tools to manage tournaments, event housing, sports facilities, and clubs.",
     tech: ["Laravel", "Vue.js", "MySQL", "REST API"],
