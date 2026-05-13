@@ -8,7 +8,7 @@ const ptMono = PT_Mono({
  
 export const metadata = {
   title: "Preyash Parikh | Senior Software Engineer",
-  description: "Senior Software Engineer with 7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
+  description: "Senior Software Engineer with 8+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
   keywords: "Preyash Parikh, Senior Software Engineer, PHP, Laravel, Vue.js, React.js, Next.js, TypeScript, Full Stack Developer, Web Development",
   authors: [{ name: "Preyash Parikh" }],
   creator: "Preyash Parikh",
@@ -19,7 +19,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Preyash Parikh | Senior Software Engineer",
-    description: "Senior Software Engineer with 7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
+    description: "Senior Software Engineer with 8+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
     url: "https://preyash-parikh.vercel.app/",
     siteName: "Preyash Parikh",
     images: ["/favicon.svg"],
@@ -28,7 +28,7 @@ export const metadata = {
   },
   linkedin: {
     title: "Preyash Parikh | Senior Software Engineer",
-    description: "Senior Software Engineer with 7+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
+    description: "Senior Software Engineer with 8+ years experience in PHP, Laravel, Vue.js, React.js, Next.js, TypeScript. Building scalable web applications and innovative solutions.",
     image: "/favicon.svg",
   },
   alternates: {
@@ -36,13 +36,17 @@ export const metadata = {
   },
 };
 
+import Cursor from "@/components/Cursor";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
-      <body className={ptMono.className}>{children}</body>
+      <body className={ptMono.className}>
+        <Cursor />
+        {children}</body>
     </html>
   );
 }

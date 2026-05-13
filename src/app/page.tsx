@@ -33,8 +33,7 @@ export default function Home() {
       <footer className="py-12 border-t border-white/10 bg-black/50">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <p className="text-gray-400 mb-4">Designed and Developed by Preyash Parikh</p>
-            <p className="text-gray-500 text-sm">Copyright © {currentYear} PreyashParikh.</p>
+            <p className="text-gray-500 text-sm">Copyright © {currentYear} Preyash Parikh. All rights reserved.</p>
           </div>
         </div>
       </footer>

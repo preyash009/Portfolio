@@ -67,7 +67,7 @@ export default function Home() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.8, delay: 1 }} className="flex justify-center gap-4 sm:gap-6 mb-8">
-            <a href="https://www.linkedin.com/in/preyash9897/" className="text-gray-400 hover:text-blue-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
+            <a href="https://www.linkedin.com/in/preyash9897" className="text-gray-400 hover:text-blue-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="https://github.com/preyash009" className="text-gray-400 hover:text-purple-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
