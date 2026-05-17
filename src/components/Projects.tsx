@@ -189,7 +189,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 pt-20 relative bg-black/30" ref={ref}>
       <div className="container mx-auto px-6">
-        <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8 }} className="text-center mb-16">
+        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             My Recent <span className="text-gradient">Works</span>
           </h2>

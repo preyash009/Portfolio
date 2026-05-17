@@ -10,13 +10,13 @@ const skillCategories = [
   {
     title: "Frontend Development",
     icon: Globe,
-    skills: [ "React.js", "Next.js", "Vue.js", "TypeScript", "JavaScript" ],
+    skills: [ "React.js", "Next.js", "Vue.js", "Nuxt.js", "TypeScript", "JavaScript" ],
     color: "from-blue-500 to-cyan-500",
   },
   {
     title: "Backend Development",
     icon: Server,
-    skills: [ "PHP", "Laravel", "Node.js", "REST APIs" ],
+    skills: [ "PHP", "Laravel", "Node.js", "Express.js", "REST APIs" ],
     color: "from-green-500 to-emerald-500",
   },
   {
