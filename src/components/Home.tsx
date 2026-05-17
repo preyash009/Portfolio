@@ -73,9 +73,9 @@ export default function Home() {
             <a href="https://github.com/preyash009" className="text-gray-400 hover:text-purple-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
               <Github className="w-6 h-6" />
             </a>
-            {/* <a href="https://leetcode.com/u/parikhpreyash9897/" className="text-gray-400 hover:text-orange-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
+            <a href="https://leetcode.com/u/preyash9897" className="text-gray-400 hover:text-orange-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
               <LeetCodeIcon className="w-6 h-6" />
-            </a> */}
+            </a>
             <a href="#contact" className="text-gray-400 hover:text-green-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300">
               <Mail className="w-6 h-6" />
             </a>
