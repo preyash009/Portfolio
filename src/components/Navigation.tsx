@@ -91,7 +91,7 @@ export default function Navigation() {
               <div className="space-y-4">
                 {navItems.map((item, index) => (
                   <motion.a key={item.name} href={item.href} onClick={() => setIsOpen(false)} initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: index * 0.1 }} className={`flex items-center gap-4 p-4 rounded-lg transition-all duration-300 hover:bg-white/10 ${activeSection === item.href.substring(1) ? "bg-white/10 text-gradient" : "text-gray-300 hover:text-white"}`}>
-                    <item.icon className="w-5 h-5" />
+                    <item.icon className={`w-5 h-5 ${activeSection === item.href.substring(1) ? "text-white" : "text-gray-300"}`} />
                     <span className="font-medium">{item.name}</span>
                   </motion.a>
                 ))}
