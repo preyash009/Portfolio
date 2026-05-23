@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export const FloatingShapes = () => {
@@ -54,6 +55,16 @@ export const CodePattern = () => {
 };
 
 export const ParticleBackground = () => {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <div className="absolute inset-0 overflow-hidden" />;
+  }
+
   return (
     <div className="absolute inset-0 overflow-hidden">
       {[...Array(50)].map((_, i) => (

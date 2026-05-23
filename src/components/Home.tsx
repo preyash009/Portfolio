@@ -7,6 +7,7 @@ import { useInView } from "react-intersection-observer";
 import { FloatingShapes, ParticleBackground } from "./svg/BackgroundDecorations";
 import { CodeBrackets, GlowingOrb, FloatingIcon } from "./svg/AnimatedIcons";
 import { LeetCodeIcon } from "./svg/LeetCodeIcon";
+import { CodeChefIcon } from "./svg/CodeChefIcon";
 
 export default function Home() {
   const { ref, inView } = useInView({ threshold: 0.3, triggerOnce: true });
@@ -75,6 +76,9 @@ export default function Home() {
             </a>
             <a href="https://leetcode.com/u/preyash9897" className="text-gray-400 hover:text-orange-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
               <LeetCodeIcon className="w-6 h-6" />
+            </a>
+            <a href="https://www.codechef.com/users/preyash_parikh" className="text-gray-400 hover:text-white transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300" target="_blank">
+              <CodeChefIcon className="w-6 h-6" />
             </a>
             <a href="#contact" className="text-gray-400 hover:text-green-400 transition-colors p-3 glass-morphism rounded-full hover:scale-110 transform duration-300">
               <Mail className="w-6 h-6" />
